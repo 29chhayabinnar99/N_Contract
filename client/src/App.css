@@ -1,0 +1,143 @@
+/* Add this style to position the navigation at the top right */
+.navbar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #fc5c7d; /* Change color on hover */
+}
+
+/* Keep the rest of your previous styles */
+body {
+  background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+  font-family: cursive;
+  height: 100vh;
+  margin: 0; /* Remove default margin */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Ensure content is aligned vertically */
+  justify-content: center;
+  align-items: center;
+  width: 400px; /* 600px * 1.2 for 20% increase */
+  height: 46vh; /* 80vh * 1.2 for 20% increase */
+  background-color: rgba(145, 51, 51, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.list-group-item:hover {
+  background-color: #9b6767;
+}
+
+.task-name {
+  color: rgb(9, 9, 9);
+  font-size: 14px;
+  font-weight: 500;
+  transition: text-decoration 0.3s ease;
+}
+
+button {
+  font-size: 14px;
+  padding: 8px 15px;
+  background-color: #6a82fb;
+  color: rgb(100, 44, 44);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #fc5c7d;
+}
+
+.task-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+button {
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+ol,
+ul {
+  padding-left: 0.51rem;
+}
+
+input {
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.outer-container {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+/* Position the Go to Add Task button at the bottom-left of the container */
+.go-to-add-task-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #6a82fb;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.go-to-add-task-btn:hover {
+  background-color: #fc5c7d; /* Change color on hover */
+}
+
+/* Keep the other styles as they are */
+.navbar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #fc5c7d; /* Change color on hover */
+}
+
